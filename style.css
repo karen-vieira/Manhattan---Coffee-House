@@ -1,0 +1,74 @@
+*{
+ margin:0 ;
+ padding: 0;
+ box-sizing: border-box;
+}
+.topo{
+ position:fixed ;
+ z-index: 1  ;
+ background-color: ;
+}
+.conteiner-parllax1{
+ height: 100vh;
+ background-image:url(assets/parallax-imagem1.png) ;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.conteiner-parllax2{
+ height: 100vh;
+ background-image:url(assets/parallax-imagem2.jpg) ;  
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.conteiner-parllax3{
+ height: 100vh;   
+ background-image:url(assets/parallax-imagem3.jpg) ;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.conteiner-parllax4{
+ height: 100vh;    
+ background-image:url(assets/parallax-imagem4.png) ;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.conteiner-texto{
+    padding: 80px 80px;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #666;
+}
+.lista-horarios li{  /* itens da lista */
+    position: relative;
+}
+.lista-horarios li div{  /*Tarja de horários lista */
+ width: 70%;
+ height: 1px;
+ position: absolute;
+ right: 0;
+ left: 0;
+ margin: 0 auto;
+ bottom: 50%;
+ background-color: #acacac
+}
+.lista-horarios li p{ /* parágrafos lista */
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+.container-rodape{
+ position: relative;   
+}
+.container-rodape a{
+ position:absolute ;
+ right: 50px;
+ bottom: 80px;
+ width: 60px;
+ height: 60px;
+}
